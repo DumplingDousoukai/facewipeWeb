@@ -26,7 +26,7 @@ SECRET_KEY = 'ihkas$o^rbzrb6wyr9+mw=m)iccg+b64a_nm1w3%9sn)^^-k-4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.2.160', 'localhost', 'dumplingdousoukai.github.io']
+ALLOWED_HOSTS = ['192.168.2.160', 'localhost', '*']
 
 
 # Application definition
