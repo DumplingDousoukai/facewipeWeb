@@ -1,0 +1,19 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form method="POST" id="form">
+	{% csrf_token %}
+	{{ forms.as_p }}
+	<button type="submit" id="save" class="btn btn-primary">Save</button>
+</form>
+
+{% for k in TL %}
+
+<p>{{k.profile_image_url}}</p>
+<p>{{k.user_name}}</p>
+
+{% endfor %}
+
+{% endblock %}
